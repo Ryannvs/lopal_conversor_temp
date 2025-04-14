@@ -13,12 +13,16 @@ public class Temperatura {
 		return celsius;
 	}
 
+	// Conversão para Fahrenheit
 	public double converterParaKelvin() {
-
+		double kelvin = (celsius * 9 / 5) + 32;
+		return kelvin;
 	}
 
+	// Conversão para Kelvin
 	public double converterParaFahreinheit() {
-
+		double fahreinheit = celsius + 273.15;
+		return fahreinheit;
 	}
 
 }
